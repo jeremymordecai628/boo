@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+import sys
+
+def main():
+    argc = len(sys.argv) - 1  # Subtract 1 for the script name itself
+
+    if argc == 0:
+        print("0 arguments.")
+    else:
+        print(f"{argc} {'argument' if argc == 1 else 'arguments'}:")
+        for i in range(1, argc + 1):
+            print(f"{i}: {sys.argv[i]}")
+
+if __name__ == "__main__":
+    main()
+
