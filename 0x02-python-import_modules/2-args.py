@@ -2,7 +2,7 @@
 import sys
 
 def main():
-    argc = len(sys.argv) - 1  # Subtract 1 for the script name itself
+    argc = len(sys.argv) - 1  
 
     if argc == 0:
         print("0 arguments.")
