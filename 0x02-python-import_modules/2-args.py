@@ -1,4 +1,4 @@
-!/usr/bin/env python3 
+#!/usr/bin/python3
 if _name_ == "_main_":
     import sys
     count = len(sys.argv) -1 
